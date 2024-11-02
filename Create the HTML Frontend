@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Face Detection System</title>
+  <style>
+    body { font-family: Arial, sans-serif; text-align: center; margin-top: 50px; }
+    h1 { color: #333; }
+    .video-container { margin: 0 auto; width: 640px; height: 480px; }
+  </style>
+</head>
+<body>
+
+  <h1>Real-Time Face Detection</h1>
+  <div class="video-container">
+    <img src="{{ url_for('video_feed') }}" id="video-feed" alt="Real-time Video Feed">
+  </div>
+
+</body>
+</html>
